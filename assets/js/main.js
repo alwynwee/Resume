@@ -113,7 +113,7 @@ function generateResume() {
 }
 
 // New Promise-based usage:
-// html2pdf().set(opt).from(element).save();
+html2pdf().set(opt).from(element).save();
 
 // Old monolithic-style usage:
 // html2pdf(element, opt);
