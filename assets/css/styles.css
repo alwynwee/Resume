@@ -477,7 +477,7 @@ img {
 
 .education__title,
 .experience__title {
-    font-size: var(--h3-font-size);
+    font-size: var(--h2-font-size);
 }
 
 .education__studies,
@@ -498,7 +498,7 @@ img {
 }
 
 .languages__content {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .languages__content {
@@ -526,7 +526,7 @@ img {
 /*========== CERTIFICATES ==========*/
 
 .certificates__title {
-    font-size: var(--h3-font-size);
+    font-size: var(--h2-font-size);
     margin-bottom: var(--mb-1);
 }
 
@@ -547,7 +547,7 @@ img {
 }
 
 .reference__title {
-    font-size: var(--h3-font-size);
+    font-size: var(--h2-font-size);
 }
 
 
@@ -656,11 +656,11 @@ img {
         grid-template-columns: repeat(1, 1fr);
     }
     .languages__content {
-        grid-template-columns: repeat(3, max-content);
+        grid-template-columns: repeat(2, max-content);
         column-gap: 3rem;
     }
     .interests__container {
-        grid-template-columns: repeat(4, max-content);
+        grid-template-columns: repeat(3, max-content);
         column-gap: 3rem;
     }
 }
