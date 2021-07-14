@@ -104,7 +104,7 @@ let opt = {
     filename: 'Alwyn Wee Ci Yong Resume.pdf',
     image: { type: 'jpeg', quality: 0.98 },
     html2canvas: { scale: 4 },
-    jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    jsPDF: { format: [595.28, 841.89] , orientation: 'portrait' }
 }
 
 // Function to call areaCv and Html2Pdf options 
@@ -113,7 +113,7 @@ function generateResume() {
 }
 
 // New Promise-based usage:
-html2pdf().set(opt).from(element).save();
+// html2pdf().set(opt).from(element).save();
 
 // Old monolithic-style usage:
 // html2pdf(element, opt);
