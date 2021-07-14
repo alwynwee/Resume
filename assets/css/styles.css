@@ -494,11 +494,11 @@ img {
 /*========== SKILLS AND LANGUAGES ==========*/
 
 .skills__content {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .languages__content {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .languages__content {
@@ -509,7 +509,7 @@ img {
 .languages__name {
     display: flex;
     align-items: center;
-    margin-bottom: var(--mb-3);
+    margin-bottom: var(--mb-2);
 }
 
 .skills__circle,
