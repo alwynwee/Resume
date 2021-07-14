@@ -104,7 +104,7 @@ let opt = {
     filename: 'Alwyn Wee Ci Yong Resume.pdf',
     image: { type: 'jpeg', quality: 0.98 },
     html2canvas: { scale: 4 },
-    jsPDF: { unit: 'mm', format: [210,380], orientation: 'portrait' }
+    jsPDF: { unit: 'mm', format: [210,250], orientation: 'portrait' }
 }
 
 // Function to call areaCv and Html2Pdf options 
