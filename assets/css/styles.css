@@ -15,12 +15,12 @@
     --body-color: #FCFCFC;
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
-    --h1-font-size: 1.8rem;
+    --h1-font-size: 1.6rem;
     --h2-font-size: 1.15rem;
     --h3-font-size: 0.9rem;
-    --normal-font-size: .888rem;
-    --small-font-size: .825rem;
-    --smaller-font-size: .763rem;
+    --normal-font-size: .918rem;
+    --small-font-size: .855rem;
+    --smaller-font-size: .793rem;
     /*========== Font weight ==========*/
     --font-medium: 500;
     --font-semi-bold: 600;
